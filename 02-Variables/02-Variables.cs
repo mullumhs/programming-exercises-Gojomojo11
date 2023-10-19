@@ -44,6 +44,16 @@ namespace ProgrammingExercisesIST
             Console.ReadLine();
             Console.WriteLine("you are himothy Saturo Matthew is so bad geez huh Mathew more like Badthew");
             Console.ReadLine();
+            Console.WriteLine("Matthew is such a loser am i right!");
+            Console.ReadLine();
+            Console.WriteLine("but he is pretty cute");
+            Console.ReadLine();
+            Console.WriteLine("you guys should date no cappa");
+            Console.ReadLine();
+            Console.WriteLine("bye boo tang tang");
+            Console.ReadLine();
+
+           
         }
     }
 }
