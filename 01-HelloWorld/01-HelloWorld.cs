@@ -13,10 +13,10 @@ Main Tasks:
 
 Questions:
 1. What is the difference between input and output?
-
+input is putting in and output is extracting
 Extension Tasks:
-1. Output another message / pause after the ReadLine.
-2. Research online how to change the colour and/or make the console beep.
+1. Output another message / pause after the ReadLine. did it
+2. Research online how to change the colour and/or make the console beep.nope
 
 Additional Resources:
 - Microsoft Docs: Console.WriteLine Method: https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline
@@ -31,6 +31,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
+            Console.WriteLine("Hello World I am Saturo Gojo I was Born with 6 eyes And Limitless I am the most powerful");
+            Console.ReadLine();
+            Console.WriteLine("Jet is secretly Saturo Gojo and was born with 6 eyes and Limitless");
+            Console.ReadLine();
+
 
         }
     }
@@ -40,6 +45,7 @@ namespace ProgrammingExercisesIST
 ===============================================================================
 FEEDBACK AREA: Paste your AI feedback here before submission:
 ===============================================================================
+
 
 
 

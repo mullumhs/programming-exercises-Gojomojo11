@@ -13,8 +13,8 @@ Main Tasks:
 3. Make the program wait for input.
 
 Questions:
-1. What is a variable?
-2. What is a string?
+1. What is a variable?Something that can be changed
+2. What is a string? a data type used in programming, that is used to represent text rather than numbers
 
 Extension Tasks:
 1. Try creating two string variables and using them in the same message.
@@ -34,8 +34,16 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            
-
+            string name = "Saturo Gojo";
+            Console.WriteLine("Hey " + name);
+            Console.ReadLine();
+            string place = "to beat matthew up because you are way better than him";
+            Console.WriteLine("go " + place + "!");
+            Console.ReadLine();
+            Console.WriteLine("You are so much better than matthew chubby clayton");
+            Console.ReadLine();
+            Console.WriteLine("you are himothy Saturo Matthew is so bad geez huh Mathew more like Badthew");
+            Console.ReadLine();
         }
     }
 }
