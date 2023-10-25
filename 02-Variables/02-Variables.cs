@@ -52,8 +52,14 @@ namespace ProgrammingExercisesIST
             Console.ReadLine();
             Console.WriteLine("bye boo tang tang");
             Console.ReadLine();
-
-           
+            Console.WriteLine("Wait i think we should kiss eachother");
+            Console.ReadLine();
+            Console.WriteLine("Fuck you FUCK YOU FUCK YOU");
+            Console.ReadLine();
+            Console.WriteLine("sorry for being mean man im just jealous of you and matt");
+            Console.ReadLine();
+            Console.WriteLine("Goodnight love xx");
+            Console.ReadLine();
         }
     }
 }

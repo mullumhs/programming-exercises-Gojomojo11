@@ -13,8 +13,8 @@ Main Tasks:
    "As of 2016 the population of China was 1.379 billion."
 
 Questions:
-1. Why were the words "year", "country", and "population" originally underlined?
-2. What is the purpose of the dollar sign ($) before the double quotes in the final message?
+1. Why were the words "year", "country", and "population" originally underlined? because they didnt have values
+2. What is the purpose of the dollar sign ($) before the double quotes in the final message? warns the program we are putting variables in using the curly brackets
 
 Extension Tasks:
 1. Print out another statement using three or more new variables of different data types.
@@ -36,8 +36,9 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
-
+            int year = 1989;
+            string country = "ohio";
+            int population = 69420;
             // Do not edit below this line
             Console.WriteLine($"As of {year} the population of {country} was {population} billion.");
             Console.ReadLine();

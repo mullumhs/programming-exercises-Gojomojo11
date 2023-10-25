@@ -15,8 +15,8 @@ Main Tasks:
 
 Questions:
 1. What does assignment mean? What is the assignment operator?
-2. Explain what Console.ReadLine() does.
-
+2. Explain what Console.ReadLine() does. reads the line
+it reads the line you wrote when you did Console.WriteLine()
 Extension Tasks:
 1. Ask for multiple inputs.
 2. Research how to input a type other than string.
@@ -39,7 +39,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            string name = Console.ReadLine();
+            Console.WriteLine($"are you from ohio {name}?");
+            Console.ReadLine();
+            Console.WriteLine($"you are a baka {name}!!");
+            Console.ReadLine();
         }
     }
 }
