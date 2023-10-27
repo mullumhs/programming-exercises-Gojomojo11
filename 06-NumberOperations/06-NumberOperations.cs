@@ -16,9 +16,11 @@ Main Tasks:
 
 Questions:
 1. What does "Convert.ToDouble" do?
+Converts the value of the specified object to an double-precision floating-point number, using the specified culture-specific formatting information.
 2. What is a parameter? Give an example of where you have used one.
+a set of facts or a fixed limit that establishes or limits how something can or must happen or be done
 3. Why is the 'Console.ReadLine()' a parameter to Convert.ToDouble()?
-
+because you need to press something to get to the other one
 Extension Tasks:
 1. Modify the program to work with the 'double' type.
 2. Research how to get the remainder of a division using the 'modulus operator'.
@@ -53,7 +55,14 @@ namespace ProgrammingExercisesIST
             double x = Convert.ToDouble(Console.ReadLine());
 
             // Your code goes below here
-
+            Console.WriteLine("Please enter a number for y:");
+            double y = Convert.ToDouble(Console.ReadLine());
+            // Operations
+            Console.WriteLine($"The sum of {x} and {y} is {x + y}");
+            Console.WriteLine($"The difference between {x} and {y} is {x - y}");
+            Console.WriteLine($"The Product {x} and {y} is {x * y}");
+            Console.WriteLine($"The Quotient of {x} and {y} is {x / y}");
+            Console.ReadLine();
         }
     }
 }
