@@ -53,10 +53,27 @@ namespace ProgrammingExercisesIST
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
+            if (mark >= 50)
+            {
+                Console.WriteLine("Pass suiii");
+            }
+            else if (mark <=50)
+            {
+                Console.WriteLine("fail loser messsi");
+
+            }
+
+            Console.ReadLine();
+
+
+
+
+
 
         }
     }
 }
+
 
 /*
 ===============================================================================

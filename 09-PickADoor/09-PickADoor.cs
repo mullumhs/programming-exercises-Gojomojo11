@@ -44,8 +44,21 @@ namespace ProgrammingExercisesIST
         {
             // Ask the user to pick a door
             Console.WriteLine("Pick a Door: 1, 2 or 3");
-
+            int door = Convert.ToInt32(Console.ReadLine());
             // Your code goes below here
+
+            if (door == 1) 
+            Console.WriteLine("saturo gojo has destroyed you");
+
+            if (door == 2)
+                Console.WriteLine("you have escaped saturo gojos wrath and now are in matts arms");
+
+            if (door == 3)
+                Console.WriteLine("saturo gojo is now eating you up)");
+
+            Console.ReadLine();
+
+
 
         }
     }
