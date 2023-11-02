@@ -51,6 +51,40 @@ namespace ProgrammingExercisesIST
         {
             // Your code goes below here
 
+            Console.WriteLine("Pick an option");
+            Console.WriteLine("1. Area of a cicle");
+            Console.WriteLine("2. Area of a triangle");
+            Console.WriteLine("3. Area of a rectangle");
+
+            string choice = Console.ReadLine();
+            {
+                if (choice == "1")
+                {
+                    Console.WriteLine("Enter radius: ");
+                    double area = Convert.ToDouble(Console.ReadLine());
+                    area = Math.PI * Math.Pow(area, 2);
+                    Console.WriteLine($"\nThe area of the circle is {area} my love");
+                }
+            }
+            if (choice == "2")
+            {
+                Console.WriteLine("Enter width you baka: ");
+                double width = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("\nEnter height pookie: ");
+                double height = Convert.ToDouble(Console.ReadLine());
+
+                
+            }
+            if (choice == "3")
+            {
+                Console.WriteLine("Put in the base length matey: ");
+                double baselenght = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("\nEnter height matthew more like badtthew");
+                double height = Convert.ToDouble(Console.ReadLine());
+            }
+
+
+
         }
     }
 }
