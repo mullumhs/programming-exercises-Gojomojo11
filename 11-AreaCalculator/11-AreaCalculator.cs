@@ -63,15 +63,24 @@ namespace ProgrammingExercisesIST
                     Console.WriteLine("Enter radius: ");
                     double area = Convert.ToDouble(Console.ReadLine());
                     area = Math.PI * Math.Pow(area, 2);
-                    Console.WriteLine($"\nThe area of the circle is {area} my love");
+                    Console.WriteLine($"The area of the circle is {area} ");
+                    Console.ReadLine();
+
                 }
             }
             if (choice == "2")
             {
-                Console.WriteLine("Enter width you baka: ");
-                double width = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("\nEnter height pookie: ");
-                double height = Convert.ToDouble(Console.ReadLine());
+
+                { 
+                    Console.WriteLine("Enter width: ");
+                    double width = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter height: ");
+                    double height = Convert.ToDouble(Console.ReadLine());
+                    double meow = height * width * 1/2;
+                    Console.WriteLine($"The area of the triangle is {meow} ");
+                    Console.ReadLine();
+                }
+
 
                 
             }
@@ -79,8 +88,11 @@ namespace ProgrammingExercisesIST
             {
                 Console.WriteLine("Put in the base length matey: ");
                 double baselenght = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("\nEnter height matthew more like badtthew");
+                Console.WriteLine("Enter height: ");
                 double height = Convert.ToDouble(Console.ReadLine());
+                double rectangle = height * baselenght;
+                Console.WriteLine($"The area of a rectangle is {rectangle}!");
+                Console.ReadLine();
             }
 
 
@@ -94,7 +106,7 @@ namespace ProgrammingExercisesIST
 FEEDBACK AREA: Paste your AI feedback here before submission:
 ===============================================================================
 
-
+meow
 
 ===============================================================================
 */
