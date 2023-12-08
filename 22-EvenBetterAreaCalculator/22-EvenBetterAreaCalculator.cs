@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 
 /*
 ===============================================================================
@@ -28,6 +28,28 @@ namespace ProgrammingExercisesIST
         {
             // Your code here
 
+            string choice = RunMenuOptions();
+            if (choice == "1")
+            {
+                CalculateCircle();
+            }
+            else if (choice == "2")
+            {
+                CalculateTriangle();
+            }
+            else
+            {
+                CalculateRectangle();
+            }
+            while (choice != "4")
+            {
+                Console.WriteLine("Performing calcs...");
+                Console.ReadLine();
+
+                choice = RunMenuOptions();
+            }
+            Console.WriteLine("Bye!");
+            Console.ReadLine();
         }
 
         // Functions for menu and calculations
@@ -44,6 +66,7 @@ namespace ProgrammingExercisesIST
         }
 
         private static void CalculateCircle()
+            
         {
             Console.WriteLine();
             Console.Write("Radius: ");

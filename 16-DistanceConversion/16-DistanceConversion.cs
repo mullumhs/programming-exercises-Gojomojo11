@@ -50,13 +50,41 @@ namespace ProgrammingExercisesIST
             string choice = MainMenu();
 
             // Write your code here
+            if (choice == "1")
+            {
+                double miles = ConvertKmToMiles();
+                Console.WriteLine($"That is {miles} miles");
 
-
+            }
+            else if (choice == "2")
+            {
+                double km = ConvertMilesToKm();
+                Console.WriteLine($"That is {km} Kilometers");
+            }
+            else
+            {
+                ErrorMessage("invalid choice!");
+            }
             // Wait for key press before exiting
             WaitForKeyPress();
         }
 
+        private static double ConvertMilesToKm()
+        {
+            double miles = GetDistance("Miles");
+            double km = miles * 1.6;
+                return km;
+        }
+
+        private static double ConvertKmToMiles()
+        {
+            double km = GetDistance("Km");
+            double miles = km / 1.6;
+            return miles;
+        }
+
         // Create your functions here
+
 
 
 

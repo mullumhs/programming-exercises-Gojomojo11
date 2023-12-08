@@ -42,7 +42,17 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code here
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Outer Loop: " + i);
 
+                for (int j = 0; j < 10; j++)
+                {
+                    Console.Write(" - " + j + " - " );
+                }
+                Console.WriteLine();
+
+            }
 
             // Wait at end
             WaitForKeyPress();

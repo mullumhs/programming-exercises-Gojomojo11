@@ -46,7 +46,7 @@ namespace ProgrammingExercisesIST
             // 1. Fix the condition of the WHILE loop so that the program works
             Console.WriteLine("Please enter a number less than 100 to continue...");
             int number = int.Parse(Console.ReadLine());
-            while (????)
+            while (number > 99)
             {
                 Console.WriteLine("Incorrect input, try again...");
                 number = int.Parse(Console.ReadLine());
@@ -56,9 +56,16 @@ namespace ProgrammingExercisesIST
 
             // 2. Write a WHILE loop to ensure the user enters a correct password of your choosing
             // Then, under the loop, output a message of your choice
-
-
-
+                
+            Console.Write("Enter Name: ");
+            string name = Console.ReadLine();
+            while (name != "Jet")
+            {
+                Console.Write("Enter Name: ");
+                name = Console.ReadLine();
+            }
+            Console.WriteLine("Welcome Jet!");
+               
             // Wait at end
             WaitAtEnd();
         }

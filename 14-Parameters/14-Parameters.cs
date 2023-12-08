@@ -55,7 +55,7 @@ namespace ProgrammingExercisesIST
             SubtractNumbers(92, 12);
             Console.ReadLine();
             Exit();
-            Console.ReadKey();
+            Console.ReadKey( );
 
         }
 

@@ -69,12 +69,57 @@ namespace ProgrammingExercisesIST
 {
     class Project_17_TemperatureConversion
     {
+        private static string choice;
+
         static void Main(string[] args)
         {
             // Write your code here
+            Console.WriteLine("What would you like to do 1. Celcius to Farenheit or 2. Farenheit to Celcius");
+              string choice = Console.ReadLine();
+            
+            if (choice == "1")
+            {
+                double celcius = ConvertCelciusToFarenheit();
+                Console.WriteLine($"That is {celcius} celcius");
 
+            }
+            else if (choice == "2")
+            {
+                double f = ConvertFarenheitToCelcius();
+                Console.WriteLine($"That is {f} Farenheit");
+            }
+            else
+            {
+                Console.WriteLine("invalid choice!");
+            }
+            // Wait for key press before exiting
+            Console.ReadLine();
         }
+
+        private static double ConvertCelciusToFarenheit()
+        {
+            double f = GetTemp("F");
+            double celcius = f - 32 * 1.8;
+            return celcius;
+        }
+
+        private static double GetTemp(string v)
+        {
+            Console.Write($"Enter Temp (in {v}) to convert: ");
+            double distance = int.Parse(Console.ReadLine());
+            return distance;
+        }
+
+        private static double ConvertFarenheitToCelcius()
+        {
+            double c = GetTemp("C");
+            double f = c / 1.6;
+            return f;
+        }
+
     }
+
+   
 }
 
 /*
